@@ -1,0 +1,65 @@
+.navbar-header img {
+    height: 100px;
+    margin: 5px;
+}
+
+.frames {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.frame {
+    position: relative;
+    border: 1px solid black;
+    margin-right: 1px;
+    width: 70px;
+    height: 70px;
+    background-color: #333;
+    color: white;
+}
+
+.frame span {
+    padding: 4px 6px 4px 6px;
+    font-size: 18px;
+    float: left;
+    display: inline-block;
+}
+
+.frame span:nth-child(2):not(:empty) {
+    padding: 4px 8px 4px 8px;
+    float: right;
+    border-left: 2px solid #222;
+    border-bottom: 2px solid #222;
+}
+
+.frame span:nth-child(3):not(:empty) {
+    padding: 4px 8px 4px 8px;
+    float: right;
+    border-left: 2px solid #222;
+    border-bottom: 2px solid #222;
+}
+
+.frame p {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+}
+
+.btn-toolbar .btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-toolbar .btn:last-child {
+    margin-right: 0;
+}
+
+.control-buttons-tab {
+    margin-top: 50px;
+}

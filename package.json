@@ -1,0 +1,39 @@
+{
+  "name": "bowling-game-scorer",
+  "version": "0.0.1",
+  "description": "Bowling application to calculate the score for each frame",
+  "author": "Neha Puri",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nehapuri31/repository.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bootstrap": ">=4.1.2",
+    "popper.js": "^1.14.3",
+    "css-loader": "^0.28.10",
+    "url-loader": "^1.1.2",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.2",
+    "postcss-loader": "^2.1.1",
+    "precss": "^3.1.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "rest": "^1.3.1"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "proxy": "http://localhost:8080",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
